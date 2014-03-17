@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  comment: MyString
+  distance: 1.5
+  start: 2014-03-09 20:38:42
+  end: 2014-03-09 20:38:42
+  username: MyString
+
+two:
+  comment: MyString
+  distance: 1.5
+  start: 2014-03-09 20:38:42
+  end: 2014-03-09 20:38:42
+  username: MyString
