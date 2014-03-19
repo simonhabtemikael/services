@@ -6,9 +6,12 @@ Programmingtest::Application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :training do
-        member do
-          get :index
-          post :create
+        collection do
+          get 'list' => :index
+          post 'register' => :create
+          get 'statistics' => :statistics
+          put 'update_training' => :update
+          delete "delete" => :destroy          
         end
       end
     end
